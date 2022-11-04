@@ -1,7 +1,7 @@
 " vim script for tailwind syntax highlighting
 "
 " pattern matching for keywords
-syntax match xs "xs:" containedin=tsxString contained 
+syntax match xs "xs:" containedin=tsxString,String contained 
 syntax match xs1 "xs1:" containedin=tsxString contained 
 syntax match xs2 "xs2:" containedin=tsxString contained 
 syntax match xs3 "xs3:" containedin=tsxString contained 
