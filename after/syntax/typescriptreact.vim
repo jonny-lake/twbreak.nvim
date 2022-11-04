@@ -27,7 +27,7 @@ syntax match 2xl2 "2xl2:" containedin=tsxString contained
 syntax match 2xl3 "2xl3:" containedin=tsxString contained 
 
 " highlighting for tailwind
-highlight! String guifg=NONE guibg=bg
+highlight! String guifg=xs guibg=bg
 highlight! default xs guifg=#8de188 gui=italic
 highlight! default xs1 guifg=#8de188 gui=italic
 highlight! default xs2 guifg=#6edd68 gui=italic
