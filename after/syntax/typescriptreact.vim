@@ -1,8 +1,8 @@
 " vim script for tailwind syntax highlighting
 "
 " pattern matching for keywords
-syntax match xs "xs:" containedin=tsxString,typescriptString contained 
-syntax match xs1 "xs1:" containedin=tsxString contained 
+syntax match xs "xs:" containedin=tsxString,typescriptString,@string contained 
+syntax match xs1 "xs1:" containedin=tsxString,@string contained 
 syntax match xs2 "xs2:" containedin=tsxString contained 
 syntax match xs3 "xs3:" containedin=tsxString contained 
 syntax match sm "sm:" containedin=tsxString contained 
@@ -27,7 +27,7 @@ syntax match 2xl2 "2xl2:" containedin=tsxString contained
 syntax match 2xl3 "2xl3:" containedin=tsxString contained 
 
 " highlighting for tailwind
-highlight! String guifg=xs guibg=bg
+" highlight! String guifg=xs guibg=bg
 highlight! default xs guifg=#8de188 gui=italic
 highlight! default xs1 guifg=#8de188 gui=italic
 highlight! default xs2 guifg=#6edd68 gui=italic
