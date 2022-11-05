@@ -1,31 +1,30 @@
-
 " vim script for tailwind syntax highlighting
 "
 " pattern matching for keywords
-syntax match xs "xs:" containedin=ALL nextgroup=xs,tsxString,typescriptString
-syntax match xs1 "xs1:" containedin=tsxString,@string contained 
-syntax match xs2 "xs2:" containedin=tsxString contained 
-syntax match xs3 "xs3:" containedin=tsxString contained 
+syntax match xs "xs:" containedin=ALL contained
+syntax match xs1 "xs1:" containedin=ALL contained
+syntax match xs2 "xs2:" containedin=ALL contained 
+syntax match xs3 "xs3:" containedin=ALL contained 
 syntax match sm "sm:" containedin=ALL contained 
-syntax match sm1 "sm1:" containedin=tsxString contained 
-syntax match sm2 "sm2:" containedin=tsxString contained 
-syntax match sm3 "sm3:" containedin=tsxString contained 
-syntax match md "md:" containedin=tsxString contained 
-syntax match md1 "md1:" containedin=tsxString contained 
-syntax match md2 "md2:" containedin=tsxString contained 
-syntax match md3 "md3:" containedin=tsxString contained 
-syntax match lg "lg:" containedin=tsxString contained 
-syntax match lg1 "lg1:" containedin=tsxString contained 
-syntax match lg2 "lg2:" containedin=tsxString contained 
-syntax match lg3 "lg3:" containedin=tsxString contained 
-syntax match xl "xl:" containedin=tsxString contained 
-syntax match xl1 "xl1:" containedin=tsxString contained 
-syntax match xl2 "xl2:" containedin=tsxString contained 
-syntax match xl3 "xl3:" containedin=tsxString contained 
-syntax match 2xl "2xl:" containedin=tsxString contained 
-syntax match 2xl1 "2xl1:" containedin=tsxString contained 
-syntax match 2xl2 "2xl2:" containedin=tsxString contained 
-syntax match 2xl3 "2xl3:" containedin=tsxString contained 
+syntax match sm1 "sm1:" containedin=ALL contained 
+syntax match sm2 "sm2:" containedin=ALL contained 
+syntax match sm3 "sm3:" containedin=ALL contained 
+syntax match md "md:" containedin=ALL contained 
+syntax match md1 "md1:" containedin=ALL contained 
+syntax match md2 "md2:" containedin=ALL contained 
+syntax match md3 "md3:" containedin=ALL contained 
+syntax match lg "lg:" containedin=ALL contained 
+syntax match lg1 "lg1:" containedin=ALL contained 
+syntax match lg2 "lg2:" containedin=ALL contained 
+syntax match lg3 "lg3:" containedin=ALL contained 
+syntax match xl "xl:" containedin=ALL contained 
+syntax match xl1 "xl1:" containedin=ALL contained 
+syntax match xl2 "xl2:" containedin=ALL contained 
+syntax match xl3 "xl3:" containedin=ALL contained 
+syntax match 2xl "2xl:" containedin=ALL contained 
+syntax match 2xl1 "2xl1:" containedin=ALL contained 
+syntax match 2xl2 "2xl2:" containedin=ALL contained 
+syntax match 2xl3 "2xl3:" containedin=ALL contained 
 
 " highlighting for tailwind
 " highlight! String guifg=xs guibg=bg
