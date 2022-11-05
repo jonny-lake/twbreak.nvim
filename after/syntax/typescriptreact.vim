@@ -5,7 +5,7 @@ syntax match xs "xs:" containedin=ALL nextgroup=xs,tsxString,typescriptString
 syntax match xs1 "xs1:" containedin=tsxString,@string contained 
 syntax match xs2 "xs2:" containedin=tsxString contained 
 syntax match xs3 "xs3:" containedin=tsxString contained 
-syntax match sm "sm:" containedin=tsxString contained 
+syntax match sm "sm:" containedin=ALL contained 
 syntax match sm1 "sm1:" containedin=tsxString contained 
 syntax match sm2 "sm2:" containedin=tsxString contained 
 syntax match sm3 "sm3:" containedin=tsxString contained 
